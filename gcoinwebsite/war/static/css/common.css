@@ -5223,9 +5223,10 @@ nav.navbar {
   -webkit-transition: none;
           transition: none;
   background-image: url("../img/logo_head.png");
+  background-repeat: no-repeat;
   height: 32px;
   width: 80px;
-  margin: 9px 20px;
+  margin: 12px 20px;
   text-indent: -9999px; }
 
 #logo:focus {
