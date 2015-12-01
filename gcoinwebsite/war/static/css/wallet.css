@@ -1,0 +1,81 @@
+header .btn {
+  position: relative;
+  left: 0px;
+  font-size: 30px; }
+
+@media (max-width: 450px) {
+  font-size: 20px; }
+@media (max-width: 350px) {
+  font-size: 15px; }
+header .btn-default {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff; }
+
+.btn:hover {
+  border-color: transparent; }
+
+#content-portion > .row > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  float: none; }
+
+/* Adjust h3 and p text margins and alignment */
+.row:first-child > div:last-child {
+  text-align: center; }
+
+@media (max-width: 767px) {
+  .row div > p, .row div > h3 {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center; } }
+@media (min-width: 768px) {
+  .row:nth-child(2n+3) div:last-child > * {
+    margin-right: 30px; }
+
+  .row:nth-child(2n+2) div:last-child > * {
+    margin-left: 30px; }
+
+  #content-portion > .row h3 {
+    font-size: 36px; } }
+@media (min-width: 992px) {
+  .row:nth-child(2n+3) div:last-child > * {
+    margin-right: 50px; }
+
+  .row:nth-child(2n+2) div:last-child > * {
+    margin-left: 50px; }
+
+  #content-portion > .row h3 {
+    font-size: 40px;
+    margin-bottom: 0.8em; }
+
+  #content-portion > .row p {
+    font-size: 18px; }
+
+  #content-portion > .row {
+    padding: 30px 0; } }
+div > img {
+  margin: 30px auto;
+  display: block;
+  max-width: 100%; }
+
+#content-portion {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+#content-portion > .row {
+  margin: 0 -15px;
+  padding: 0; }
+
+#content-portion > .row .btn-container {
+  text-align: center;
+  margin-bottom: 15px; }
+
+#content-portion > .row .btn-container > .btn-right {
+  margin-left: 0;
+  width: 100%; }
+
+#content-portion > .row .btn-container > .btn-left {
+  margin-right: 0;
+  width: 100%; }

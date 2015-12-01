@@ -1,0 +1,79 @@
+header {
+  height: 100%; }
+
+header hr {
+  display: block;
+  height: 1px;
+  width: 30%;
+  border: 0;
+  border-top: 1px solid #ffffff;
+  margin: 3em auto; }
+
+#intro {
+  background: #fff; }
+
+#intro h3 {
+  margin: 0; }
+
+h1 {
+  color: #fff; }
+
+/*
+ * Features section
+ */
+.feature {
+  margin-bottom: 30px; }
+
+/* These divs have a SVG background on supporting browsers, and a PNG fallback
+ * The image source is specified in templates/main.html as an inline style, in
+ * order to avoid specifying URLs in more than one location */
+.divimg {
+  margin: 0 auto;
+  width: 4.28571em;
+  height: 4.28571em; }
+
+/* Fix spacing on main page */
+#features {
+  margin-bottom: 0; }
+
+.feature > p:last-child {
+  margin-bottom: 0; }
+
+/* Necessary to fix column height issues... yuck */
+@media (min-width: 992px) {
+  .feature:nth-child(3n+1) {
+    clear: left; } }
+@media (max-width: 991px) {
+  .feature:nth-child(2n+1) {
+    clear: left; } }
+.feature > h3 {
+  font-size: 1.3em;
+  text-align: center; }
+
+.feature > p {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 1.1em; }
+
+#contact h2 {
+  margin: 0; }
+
+/*
+ * Navbar
+ */
+@media (max-width: 767px) {
+  .no-js .navbar-header {
+    display: none; }
+
+  .no-js header {
+    padding-top: 50px; } }
+#contact input, #contact textarea {
+  width: 100%;
+  margin: 15px 0; }
+#contact textarea {
+  resize: vertical; }
+
+#contact > div {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px; }

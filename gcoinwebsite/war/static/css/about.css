@@ -1,0 +1,38 @@
+.row > section {
+  text-align: center; }
+
+#team > section > img {
+  margin: 0 auto;
+  display: block;
+  height: 150px;
+  width: 150px; }
+
+/* Fix row item clearing when on smaller screens, due to title text
+ * flowing to two lines and causing different heights; we could use
+ * fixcols from macros.scss, but that's a little heavier */
+@media (max-width: 767px) {
+  #team > section:nth-child(2n+1) {
+    clear: left; } }
+@media (max-width: 480px) {
+  #team > section > img {
+    height: 150px;
+    width: 150px; } }
+@media (max-width: 350px) {
+  #team > section > img {
+    height: 100px;
+    width: 100px; } }
+/* Since the navbar overlays the top 50px of the page, shift the link targets */
+/* 65px = 50px of nav bar height + 15px of intended h3 padding */
+.row > section {
+  padding-top: 65px;
+  margin-top: -65px;
+  margin-bottom: 30px; }
+
+h2 {
+  display: block;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 30px; }
+
+h3 {
+  font-size: 18px; }

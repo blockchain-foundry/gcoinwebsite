@@ -1,0 +1,22 @@
+body > .container > .row > div {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  float: none; }
+
+@media (max-width: 767px) {
+  body > .container > .row > .col-xs-h {
+    display: none; } }
+/* These divs have a SVG background on supporting browsers, and a PNG fallback
+ * The image source is specified in templates/about.html as an inline style, in
+ * order to avoid specifying URLs in more than one location */
+.divimg {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px; }
+
+/* Since the navbar overlays the top 50px of the page, shift the link targets */
+/* 65px = 50px of nav bar height + 15px of intended h3 padding */
+body > .container .row > div {
+  padding-top: 80px;
+  margin-top: -80px; }

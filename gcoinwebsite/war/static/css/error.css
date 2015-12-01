@@ -1,0 +1,10 @@
+body > .container {
+  padding-top: 3.57em;
+  /* Navbar height */
+  height: 100%; }
+
+footer {
+  margin-top: -206px;
+  /* - Footer height */
+  margin-top: -13.0952em;
+  font-size: 12.6px; }
