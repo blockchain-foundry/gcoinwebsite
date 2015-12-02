@@ -36,3 +36,11 @@ h2 {
 
 h3 {
   font-size: 18px; }
+  
+#contact > div {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  color: #444 }
+  

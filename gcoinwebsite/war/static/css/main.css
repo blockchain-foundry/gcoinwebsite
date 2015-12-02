@@ -67,13 +67,3 @@ h1 {
 
   .no-js header {
     padding-top: 50px; } }
-#contact input, #contact textarea {
-  width: 100%;
-  margin: 15px 0; }
-#contact textarea {
-  resize: vertical; }
-
-#contact > div {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 30px; }
