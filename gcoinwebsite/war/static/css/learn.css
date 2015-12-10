@@ -2,7 +2,7 @@ body > .container > .row > div {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  float: none; }
+}
 
 @media (max-width: 767px) {
   body > .container > .row > .col-xs-h {
