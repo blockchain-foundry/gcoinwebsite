@@ -5198,7 +5198,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #333366; }
+  color: #51A39D; }
 
 /*
  * Navbar styles
@@ -5268,7 +5268,7 @@ nav li a {
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
             transition: background .5s ease-in-out,padding .5s ease-in-out; } }
 .top-nav-collapse {
-  background: #333366;
+  background: #51A39D;
   padding: 0; }
 
 .navbar-collapse {
@@ -5397,7 +5397,6 @@ small {
   text-align: center;
   line-height: 20px;
   margin: 15px 5px 0;
-  background: #333366;
   color: #ffffff; }
 
 footer h3 {
@@ -5442,7 +5441,7 @@ footer a, footer a:focus, footer a:active {
   margin: 0 auto; }
 
 footer {
-  background: #333366; }
+  background: #51A39D; }
 
 /*
  * Main body sections

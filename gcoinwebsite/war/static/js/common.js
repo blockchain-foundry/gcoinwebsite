@@ -27,7 +27,7 @@ $(document).ready(function(){
 		if (open_navbar_menu) {
 			scroll = 1;
 		}
-		$('nav').css({"background-color":"rgba(51, 51, 102, "+scroll+")"});
+		$('nav').css({"background-color":"rgba(81, 163, 157, "+scroll+")"});
 		$('.current').css({"background-color":"rgba(215, 230, 255, "+0.3*scroll+")"});
 	}
 
