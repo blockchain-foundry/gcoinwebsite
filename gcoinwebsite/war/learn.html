@@ -8,11 +8,11 @@
 <meta name=author content="Gcoin web team">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>Gcoin | Gcoin System</title>
-<link href="/static/css/common.css" rel=stylesheet>
-<link href="/static/css/learn.css" rel=stylesheet>
-<link href="//openfontlibrary.org/face/bretan-pro" rel=stylesheet
+<link href="static/css/common.css" rel=stylesheet>
+<link href="static/css/learn.css" rel=stylesheet>
+<link href="http://openfontlibrary.org/face/bretan-pro" rel=stylesheet
 	media=screen />
-<link rel=icon href="/favicon.ico" type="image/x-icon">
+<link rel=icon href="favicon.ico" type="image/x-icon">
 <!--[if lt IE 9]><script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
 <script>
 	(function(i, s, o, g, r, a, m) {
@@ -24,14 +24,14 @@
 		a.async = 1;
 		a.src = g;
 		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+	})(window, document, 'script', 'http://www.google-analytics.com/analytics.js',
 			'ga');
 	ga('create', 'UA-63733228-1', 'auto');
 	ga('send', 'pageview');
 </script>
 </head>
 <body id=page-top class=no-js>
-	<header style="background-image: url(/static/img/bg_learn.jpg);">
+	<header style="background-image: url(static/img/bg_learn.jpg);">
 		<div>
 			<div id=header-desc>
 				<h1>
@@ -45,13 +45,12 @@
 	<nav class="top-nav-collapse navbar navbar-fixed-top" role=navigation>
 		<div class=container>
 			<h2 class=hidden>Navigation</h2>
-			<a id=logo class="navbar-brand page-scroll" href="/">Gcoin</a>
+			<a id=logo class="navbar-brand page-scroll" href="index.html">Gcoin</a>
 			<div
 				class="collapse navbar-collapse navbar-left navbar-main-collapse">
 				<ul class="nav navbar-nav">
-					<li><a class=page-scroll href="/learn.html">Learn</a></li>
-					<li><a class=page-scroll href="/about.html">About Us</a></li>
-					<li><a class=page-scroll href="/conference.html">Conference</a></li>
+					<li><a class=page-scroll href="learn.html">探索</a></li>
+					<li><a class=page-scroll href="https://fintech.csie.ntu.edu.tw/">FinTech 中心</a></li>
 				</ul>
 			</div>
 		</div>
@@ -62,17 +61,8 @@
 				<div class=col-xs-12>
 					<div id=toptext-wrap>
 						<span><span></span></span>
-						<p>Gcoin is an open protocol and platform that makes financial
-							market more transparent. Gcoin network can be inspected and
-							verified by all participating users. Traditional financial
-							instruments can be brought onto Gcoin platform, doing away the
-							need for intermediary parties and the associated inconveniences
-							and dangers. Gcoin has improved the Bitcoin blockchain technology
-							and transformed it into a transaction platform with greater
-							capacity for expansion and higher transaction frequency.</p>
-						<p>Our goal is to use blockchain technology to construct a
-							comprehensive state-of-the-art peer-to-peer financial transaction
-							platform.</p>
+						<p>GCOIN 區塊鏈協議致力於提供一套開放的數位金融基礎建設，使用 GCOIN 可打造出支援兼顧安全性、效率性、低維護成本的交易平台。區塊鏈上的數位化資產能夠與真實世界中的各種資產建立不可竄改的連結，包括點數、票據、證券、權證、甚至房地產等線下資產。</p>
+						<p>GCOIN 將區塊鏈針對金融應用與電子商務所需的交易速度與可擴展性加以改進並優化，可真正實現數位金融的虛實整合。</p>
 					</div>
 				</div>
 			</div>
@@ -81,87 +71,57 @@
 	<div class=container>
 		<section class=row>
 			<div id="sec_features" class="col-lg-9 col-md-8 col-sm-8 col-xs-12 ">
-				<h3>A secure distributed platform</h3>
-				<p>Similar to Bitcoin, Gcoin employs distributed ledger system
-					called “blockchain”. All verified transactions are placed on
-					blockchain. The transactions are verified by all network
-					participants. A process called “mining” is used to verify the
-					transaction, maintain transaction chronological orders, and achieve
-					consensus among decentralized network participants.</p>
+				<h3>分散式數位帳本 --- 區塊鏈</h3>
+				<p>「區塊鏈 (Blockchain)」從 2015 年起成為全球金融科技創新的焦點，而 GCOIN 本身就是一套開源的區塊鏈底層協議。區塊鏈將所發生的交易紀錄到區塊 (Block) 中，並藉由網絡參與者共同驗證的方式來確保交易的完整性，採用這項技術賦予金融機構去中介化、高安全性、結算速度快、成本較低、可供監察驗證和資料最終性等優點。GCOIN 改良原本稱為「挖礦 (Mining)」的分散式共識演算法 (Decentralized Consensus Algorithm)，大幅提升區塊鏈的交易速度與可擴展性。</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 col-xs-h ">
 				<div class=divimg
-					style="background-image: url('/static/img/l1.png'); background-image: none, url('/static/img/l1.svg'), url('/static/img/l1.png'); background-size: 100% 100%;"></div>
+					style="background-image: url('static/img/l1.png'); background-image: none, url('static/img/l1.svg'), url('static/img/l1.png'); background-size: 100% 100%;"></div>
 			</div>
 		</section>
 		<section class=row>
 			<div id="sec_features"
 				class="col-lg-9 col-md-8 col-sm-8 col-xs-12 col-lg-push-3 col-md-push-4 col-sm-push-4">
-				<h3>Multiple electronic currencies</h3>
-				<p>Gcoin is a multi-currency network. Bitcoin is a
-					single-currency network. Gcoin natively supports multiple
-					currencies. Gcoin currency issuers have to obtain a coin-minting
-					license to issue the currency. A user may need to register with an
-					issuer to use that issuer’s currency.</p>
+				<h3>支援多元資產並存</h3>
+				<p>GCOIN 區塊鏈上可以存在多種數位資產，這是過去的比特幣區塊鏈缺乏之功能。GCOIN 網絡中同時承載多種數位資產，並且支援極大之發行總量上限，而非比特幣之兩千一百萬貨幣總量限制。GCOIN 藉由區塊鏈上的聯盟成員賦予資產發行權限，每個資產發行憑證可發行一種資產，而發行者也可將對應的資產訊息紀錄在區塊鏈上，作為不可竄改的連結。例如，NASDAQ 使用 LINQ 紀錄私募股權市場的股票，就是應用區塊鏈發行數位資產的功能。</p>
 			</div>
 			<div
 				class="col-lg-3 col-md-4 col-sm-4 col-xs-h col-lg-pull-9 col-md-pull-8 col-sm-pull-8">
 				<div class=divimg
-					style="background-image: url('/static/img/l2.png'); background-image: none, url('/static/img/l2.svg'), url('/static/img/l2.png'); background-size: 100% 100%;"></div>
+					style="background-image: url('static/img/l2.png'); background-image: none, url('static/img/l2.svg'), url('static/img/l2.png'); background-size: 100% 100%;"></div>
 			</div>
 		</section>
 		<section class=row>
 			<div id="sec_consensus_algorithm"
 				class="col-lg-9 col-md-8 col-sm-8 col-xs-12 ">
-				<h3>Supports high-frequency transactions</h3>
-				<p>One of the limitations of Bitcoin is its fairly low
-					transactions per second (TPS). Currently, Bitcoin network can only
-					handle an average transaction volume of 7 TPS. Gcoin network
-					addressed this challenge by having shorter block time. On average,
-					at peak transaction times, Gcoin network generates a transaction
-					block every 15 seconds. The Gcoin network has been specifically
-					designed to satisfy financial applications. It has substantially
-					increased its transaction frequency capacity and substantially
-					shortened transaction confirmation time.</p>
+				<h3>支援高頻交易</h3>
+				<p>相較於過去比特幣目前只能負荷平均每秒 7 個交易的每秒交易數 (TPS) 以致無法承載高頻交易，GCOIN 區塊鏈針對此問題將交易速度做優化，交易高峰時平均每 10-15 秒將交易記錄到區塊。GCOIN 為滿足金融應用所作的特殊設計可大幅提升可承載之交易頻率，且大幅 縮短交易確認時間。</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 col-xs-h ">
 				<div class=divimg
-					style="background-image: url('/static/img/l3.png'); background-image: none, url('/static/img/l3.svg'), url('/static/img/l3.png'); background-size: 100% 100%;"></div>
+					style="background-image: url('static/img/l3.png'); background-image: none, url('static/img/l3.svg'), url('static/img/l3.png'); background-size: 100% 100%;"></div>
 			</div>
 		</section>
 		<section class=row>
 			<div id="sec_alliance"
 				class="col-lg-9 col-md-8 col-sm-8 col-xs-12 col-lg-push-3 col-md-push-4 col-sm-push-4">
-				<h3>A more secure algorithm</h3>
-				<p>The Gcoin network improves upon Bitcoin’s proof of work
-					algorithm with the alliance-based CPOW (Consortium proof of work)
-					algorithm. Combind with dynamic mining difficulty improvement,
-					Gcoin is able to avoid the famous “51% attack” vulnerability in
-					Bitcoin network.</p>
+				<h3>改良的演算法</h3>
+				<p>為了避免匿名參與者的惡意攻擊，並解決比特幣區塊鏈之 51% 攻擊問題，GCOIN 區塊鏈針對認許制或實名制網絡將既有的分散式共識演算法進行改良，大幅降低分散式系統發生獨佔驗證的可能性，更適合做為數位金融基礎建設。更多細節請參考 Github 上的<a href="https://github.com/OpenNetworking/gcoin-community">開放原始碼</a>。</p>
 			</div>
 			<div
 				class="col-lg-3 col-md-4 col-sm-4 col-xs-h col-lg-pull-9 col-md-pull-8 col-sm-pull-8">
 				<div class=divimg
-					style="background-image: url('/static/img/l4.png'); background-image: none, url('/static/img/l4.svg'), url('/static/img/l4.png'); background-size: 100% 100%;"></div>
+					style="background-image: url('static/img/l4.png'); background-image: none, url('static/img/l4.svg'), url('static/img/l4.png'); background-size: 100% 100%;"></div>
 			</div>
 		</section>
 		<section class=row>
 			<div id="sec_issuer" class="col-lg-9 col-md-8 col-sm-8 col-xs-12 ">
-				<h3>Multi-centered decentralized structure</h3>
-				<p>Participants taking on different roles to maintain the
-					platform’s functional integrity. Multiple alliance members take on
-					the responsibility of generating blocks. These blocks provide
-					historical transaction information. Alliance member nodes also
-					inspect and verify network transactions.</p>
-				<p>Issuers have coin-minting certificates that can issue a Gcoin
-					currency. Users (Gcoin Wallet) need to register with individual
-					issuer to use that issuer’s currency.</p>
-				<p>Users can obtain currency from an issuer or another user.
-					(see Gcoin White paper)</p>
+				<h3>多中心階層架構</h3>
+				<p>GCOIN 區塊鏈設計不同角色的參與者維持網絡的功能完整性。網絡中的聯盟成員(Alliance members) 負責驗證交易之正確性，生成區塊供網絡獲取交易歷史資訊。發行者 (Issuers) 自聯盟成員獲得發行許可，負責產生各種數位資產。錢包 (Wallets) 可用來儲存數位資產，使用戶直接存取，進行交易、獲取資產資訊等，而不需透過中介商。</p>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-4 col-xs-h ">
 				<div class=divimg
-					style="background-image: url('/static/img/l5.png'); background-image: none, url('/static/img/l5.svg'), url('/static/img/l5.png'); background-size: 100% 100%;"></div>
+					style="background-image: url('static/img/l5.png'); background-image: none, url('static/img/l5.svg'), url('static/img/l5.png'); background-size: 100% 100%;"></div>
 			</div>
 		</section>
 	</div>
@@ -170,25 +130,24 @@
 			<div class=row>
 				<h2 class=hidden>Related links</h2>
 				<div class="col-xs-12 col-sm-4">
-					<a href="/"><div id=logo_footer
-							style="background-image: url(/static/img/logo_foot.png); /* background-image: none, url(/static/img/logo.svg), url(/static/img/logo_foot.png); */ background-size: 100% 100%;"></div></a><small>Copyright
+					<a href="index.html"><div id=logo_footer
+							style="background-image: url(static/img/logo_foot.png); /* background-image: none, url(/static/img/logo.svg), url(/static/img/logo_foot.png); */ background-size: 100% 100%;"></div></a><small>Copyright
 						© Gcoin 2016</small>
 				</div>
 				<nav class="footer-menu col-xs-12 col-sm-8">
 					<div>
 						<ul class=nav>
-							<li><a href="/">Home</a>
-							<li><a href="/learn">Learn</a>
-							<li><a href="/about">About Us</a>
-							<li><a href="/conference.html">Conference</a>
+							<li><a href="index.html">首頁</a>
+							<li><a href="learn.html">探索</a>
+							<li><a href="https://fintech.csie.ntu.edu.tw/">FinTech 中心</a>
 						</ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</footer>
-	<script src="/static/js/jquery-1.11.0.min.js"></script>
-	<script src="/static/js/bootstrap.min.js"></script>
-	<script src="/static/js/common.js"></script>
+	<script src="static/js/jquery-1.11.0.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/common.js"></script>
 </body>
 </html>
